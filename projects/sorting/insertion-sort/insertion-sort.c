@@ -22,4 +22,4 @@ void sort(int* arr, int length) {
   }
 }
 
-int main() { return testSortFn(&sort) ? 1 : 0; }
+int main() { testSortFn(&sort); }

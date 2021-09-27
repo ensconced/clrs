@@ -1,5 +1,5 @@
 #include <stdbool.h>
 
-typedef void (*sortFn)(int[], int);
+typedef void (*sortFn)(int*, int);
 
-bool testSortFn(sortFn);
+void testSortFn(sortFn);

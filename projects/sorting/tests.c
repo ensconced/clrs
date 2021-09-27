@@ -1,3 +1,4 @@
+
 #include "./tests.h"
 
 #include <stdbool.h>
@@ -21,19 +22,17 @@ void logTestFailure(int* received, int* expected, int length) {
   logArray(received, length);
 }
 
-bool assertArraysEqual(int* received, int* expected, int length) {
+void assertArraysEqual(int* received, int* expected, int length) {
   for (int i = 0; i < length; i++) {
     if (received[i] != expected[i]) {
       logTestFailure(received, expected, length);
-      return false;
+      exit(1);
     }
   }
-  return true;
 }
 
-bool testSortFn(sortFn fn) {
-  int test1[3] = {1, 2, 3};
-  int expected[3] = {1, 2, 3};
-  fn(test1, 3);
-  return assertArraysEqual(test1, expected, 3);
+void testSortFn(sortFn sort) {
+  int test_cases[][2][3] = {{{1, 2, 3}, {1, 2, 3}}};
+  int(*test_case)[3] = test_cases[0];
+  printf("%d", (*test_case)[0]);
 }
