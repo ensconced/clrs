@@ -15,6 +15,7 @@
     "-Wextra"
   ],
   "files.associations": {
-    "stdbool.h": "c"
+    "stdbool.h": "c",
+    "test-utils.h": "c"
   },
 }

@@ -1,7 +1,3 @@
-#include <stdbool.h>
-
-#include "../sort.test.h"
-
 // sort an array, in place
 void sort(int* arr, int length) {
   for (int j = 1; j < length; j++) {
@@ -21,5 +17,3 @@ void sort(int* arr, int length) {
     arr[i + 1] = rightVal;
   }
 }
-
-int main() { testSortFn(&sort); }
