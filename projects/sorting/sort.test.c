@@ -1,5 +1,3 @@
-
-
 #include "./sort.test.h"
 
 #include <stdbool.h>
