@@ -1,7 +1,3 @@
-
-#include "./tests.h"
-
-#include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -29,10 +25,4 @@ void assertArraysEqual(int* received, int* expected, int length) {
       exit(1);
     }
   }
-}
-
-void testSortFn(sortFn sort) {
-  int test_cases[][2][3] = {{{1, 2, 3}, {1, 2, 3}}};
-  int(*test_case)[3] = test_cases[0];
-  printf("%d", (*test_case)[0]);
 }

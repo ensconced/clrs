@@ -1,6 +1,6 @@
 #include <stdbool.h>
 
-#include "../tests.h"
+#include "../sort.test.h"
 
 // sort an array, in place
 void sort(int* arr, int length) {
