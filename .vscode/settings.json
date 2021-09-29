@@ -16,9 +16,15 @@
   ],
   "files.associations": {
     "stdbool.h": "c",
-    "test-utils.h": "c"
+    "test-utils.h": "c",
+    "sort.test.h": "c"
   },
   "[c]": {
     "files.insertFinalNewline": true
+  },
+  "files.exclude": {
+    // "**/*.o": true,
+    // "**/*.d": true,
+    // "**/*.test": true
   }
 }

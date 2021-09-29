@@ -1,5 +1,3 @@
-
-
 #include "./insertion-sort.h"
 
 #include <stdbool.h>
