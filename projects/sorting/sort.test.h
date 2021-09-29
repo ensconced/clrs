@@ -1,3 +1,5 @@
+#pragma once
+
 #include <stdbool.h>
 
 typedef void (*sortFn)(int*, int);
