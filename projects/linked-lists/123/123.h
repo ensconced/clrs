@@ -2,4 +2,5 @@
 
 #include "../node.h"
 
-struct node* BuildOneTwoThree();
+struct node* buildOneTwoThree();
+struct node* terseOneTwoThree();
