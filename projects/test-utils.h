@@ -7,3 +7,4 @@
 
 void assertArraysEqual(int* received, int* expected, int length);
 void assertListEqualToArray(struct node* listHead, int* array, int length);
+void assertIntEqual(int received, int expected);

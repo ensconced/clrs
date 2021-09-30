@@ -79,3 +79,10 @@ void assertListEqualToArray(struct node *listHead, int *array, int length) {
     i++;
   } while ((currentNode = currentNode->next));
 }
+
+void assertIntEqual(int received, int expected) {
+  if (received != expected) {
+    printf("Expected :\n%d\n", expected);
+    printf("Received :\n%d\n", received);
+  }
+}
