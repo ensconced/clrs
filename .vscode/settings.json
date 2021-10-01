@@ -14,9 +14,7 @@
     "-Wall",
     "-Wextra"
   ],
-  "[c]": {
-    "files.insertFinalNewline": true
-  },
+  "files.insertFinalNewline": true,
   "files.associations": {
     "array": "c",
     "string": "c",
